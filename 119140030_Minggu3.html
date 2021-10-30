@@ -1,0 +1,41 @@
+<!--Nama: Rian Andri Waskito-->
+<!--NIM: 119140030-->
+<!--Kelas: RA-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Minggu 3</title>
+    
+</head>
+<body id="body">
+    <div id="div">
+        <form>
+            <label for="theme">Select theme: </label>
+            <select name="theme" id="theme" onchange="themechange()">
+                <option value="light">White</option>
+                <option value="dark">Black</option>
+            </select>
+        </form>
+        <h1>This is my website</h1>
+        <form>
+            <label for="wheater">Select the wheater type today: </label>
+            <select name="wheater" id="wheater" onchange="wheaterchange()">
+                <option value="Sunny">Sunny</option>
+                <option value="Rainy">Rainy</option>
+            </select>
+        </form>
+        <p id="p1">It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream</p>
+        <form onsubmit="return false">
+            <label for="number">Input number: </label>
+            <input type="number" name="number" id="number" required>
+            <button onclick="bilanganfaktorial()">Get Factorial</button>
+        </form>
+        <p id="p2"></p>
+    </div>
+    
+    <script src="119140030_Minggu3.js"></script>
+</body>
+</html>
