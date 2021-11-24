@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #7ac3ff;
+}
+
+.active {
+    background-color: #060238;
+}
+
+body {
+    margin: 0;
+    background: -webkit-linear-gradient(right, #0a2cc5, #0bb19b);
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}

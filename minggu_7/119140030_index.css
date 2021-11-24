@@ -1,0 +1,104 @@
+/*Nama: Rian Andri Waskito*/
+/*NIM: 119140030*/
+/*Kelas: RA*/
+body {
+    background: -webkit-linear-gradient(right, #0a2cc5, #0bb19b);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    width: 60%;
+    background: rgba(17, 179, 143, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20%;
+}
+
+table tr td {
+    padding: 0 10 10 0;
+}
+
+table input {
+    background-color: rgb(245, 255, 250, 0.5);
+    height: 25px;
+}
+
+table button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tampilanData {
+    border-collapse: collapse;
+    font-size: 13pt;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+.tampilanData td {
+    padding: 5px;
+    height: 30px;
+    background-color: rgba(15, 224, 120, 0.5);
+}
+
+.tampilanData th {
+    background-color: rgb(105, 197, 19);
+    height: 30px;
+    padding: 5px;
+}
+
+.tampilanData button {
+    margin: 0;
+}
+
+button {
+    background: rgb(115, 255, 216, 0.5);
+    color: black;
+}
+
+button:hover {
+    background: rgb(75, 62, 255);
+    color: black;
+}
+
+.btn-delete:hover {
+    background-color: rgb(255, 0, 0, 0.7);
+}
+
+.btn-edit:hover {
+    background-color: rgb(63, 255, 0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
+
+.active {
+    background-color: #060238;
+}

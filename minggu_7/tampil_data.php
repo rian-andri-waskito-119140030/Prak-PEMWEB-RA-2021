@@ -1,0 +1,8 @@
+<?php 
+include '119140030_koneksi.php';
+$id = $_POST['id'];
+$sql = mysqli_query($koneksi, "SELECT * FROM karakter WHERE levelk = '$id' ");
+$result = mysqli_fetch_array($sql);
+$result['id'] = $id;
+echo json_encode($result);
+?>
